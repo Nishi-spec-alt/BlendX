@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd250133931812100a8275dcebba103a" label="Idea" max_length="40" name="x_1527755_blendx_idea" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Positive impact on the society?" max_length="400" name="positive_impact_on_the_society" type="string"/>
+        <element label="Problem" max_length="400" name="problem" type="string"/>
+        <element choice="1" label="Topology" max_length="40" name="topology" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element label="What problems does it solve?" max_length="400" name="what_problems_does_it_solve" type="string"/>
+        <element label="Voters reference" max_length="4000" name="voters_reference" type="glide_list"/>
+        <element label="Business model" max_length="400" name="business_model" type="string"/>
+        <element label="Beneficiaries" max_length="400" name="beneficiaries" type="string"/>
+        <element label="Competitor" max_length="400" name="competitor" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

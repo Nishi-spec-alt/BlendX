@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1527755_blendx_idea_editor">x_1527755_blendx_idea_editor</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>IDE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>nishi_upadhye</sys_created_by>
+        <sys_created_on>2024-09-04 07:48:27</sys_created_on>
+        <sys_id>1f784d77931812100a8275dcebba1080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IDE</sys_name>
+        <sys_package display_value="BlendX" source="x_1527755_blendx">fc14c5fb93d412100a8275dcebba10e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BlendX">fc14c5fb93d412100a8275dcebba10e4</sys_scope>
+        <sys_update_name>sys_number_1f784d77931812100a8275dcebba1080</sys_update_name>
+        <sys_updated_by>nishi_upadhye</sys_updated_by>
+        <sys_updated_on>2024-09-04 07:48:27</sys_updated_on>
+    </sys_number>
+</record_update>

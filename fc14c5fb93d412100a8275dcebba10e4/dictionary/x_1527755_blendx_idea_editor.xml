@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fdf7c173931812100a8275dcebba10d1" label="Idea Editor" max_length="40" name="x_1527755_blendx_idea_editor" type="collection">
+        <element label="end date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="policy and regularization" max_length="40" name="policy_and_regularization" type="file_attachment"/>
+        <element label="start date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Voting type" max_length="40" name="voting_type" type="choice">
+            <choice/>
+        </element>
+        <element label="description" max_length="40" name="description" type="string"/>
+    </element>
+</database>
